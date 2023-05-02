@@ -5,5 +5,5 @@ class Game
     Player.new('Player 1'),
     Player.new('Player 2')
   ]
-  @current_player = @player[0]
+  @current_player = @players[0]
 end
