@@ -1,2 +1,2 @@
-require 'players.rb'
-require 'question.rb'
+require './player.rb'
+require './question.rb'
