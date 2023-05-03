@@ -8,7 +8,7 @@ class Question
   end
 
   def ques_to_ask
-    "What is the total of #{@num1} and #{@num2}"
+    "What does #{@num1} plus #{@num2} equal?"
   end
 
   def check_answer(useranswer)

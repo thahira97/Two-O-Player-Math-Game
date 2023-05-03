@@ -16,4 +16,13 @@ class Game
     result = question.check_answer(player_response)
   end
  end
+
+ def validate_answer(res)
+  if res == false
+    @current_player.lives -= 1
+    puts "#{@current_player.name}: Seriously? No!"
+  else
+    puts "#{@current_player.name}: YES! You are correct."
+  end
+ end
 end
