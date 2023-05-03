@@ -16,5 +16,4 @@ class Game
     result = question.check_answer(player_response)
  end
 end
-
 end
