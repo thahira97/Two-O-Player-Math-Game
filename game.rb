@@ -24,5 +24,6 @@ class Game
   else
     puts "#{@current_player.name}: YES! You are correct."
   end
+  puts "#{@players[0]}: #{@players[0].lives}/3 vs #{@players[1]}: #{@players[1].lives}/3"
  end
 end
