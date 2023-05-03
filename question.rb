@@ -5,7 +5,6 @@ class Question
   @num1 = rand(1..20)
   @num2 = rand(1..20)
   @answer = @num1 + @num2
-  @response = nil
  end
  
  def ques_to_ask
@@ -14,10 +13,10 @@ class Question
 
  def check_answer(userinput)
   if @answer == userinput 
-  puts "YES! You are correct!"
+  
+  true
   else
-    puts "Seriously? No."
+  false
   end
  end
-
 end

@@ -14,6 +14,6 @@ class Game
     puts "#{@current_player.name}: #{question.ques_to_ask}"
     player_response = gets.chomp.to_i
     result = question.check_answer(player_response)
+  end
  end
-end
 end
