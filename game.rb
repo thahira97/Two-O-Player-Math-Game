@@ -34,6 +34,7 @@ class Game
       puts "#{@current_player.name}: YES! You are correct."
     end
     puts "P1: #{@players[0].lives}/3 vs P2: #{@players[1].lives}/3"
+    #calling the method to take turns
     switch_player
     unless @players[0].lives == 0 || @players[1].lives == 0
       puts "----- NEW TURN -----"
